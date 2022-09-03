@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.clock_card {
+    width: 1200px;
+    /* border: 2px solid red; */
+    padding: 100px;
+
+}
+.clock_table{
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 50px rgb(247, 43, 43);
+    /* background-color: yellow; */
+    padding: 50px;
+}
+.clock_table table{
+    /* background-color: red; */
+    text-align: center;
+}
+.clock_table table th{
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    /* background-color: green; */
+    color: white;
+
+}
+
+.clock_table table td{
+    padding: 20px;
+    height: 250px;
+    width: 500px;
+    /* background-color: blue; */
+    font-size: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    color: white;
+}
+#AP{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
